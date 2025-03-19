@@ -1,5 +1,4 @@
-﻿using Blackjack_OOP3.classes.Blackjack_OOP3.classes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Blackjack_OOP3.classes
 {
-    public class Dealer
+    public class Player
     {
-     
+
     }
 }
