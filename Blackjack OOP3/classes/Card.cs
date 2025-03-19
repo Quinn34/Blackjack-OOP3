@@ -36,7 +36,6 @@ namespace Blackjack_OOP3.classes
         Suits suit;
         FaceValues faceValue;
         int value;
-        Image img;
 
         public Suits Suit
         {

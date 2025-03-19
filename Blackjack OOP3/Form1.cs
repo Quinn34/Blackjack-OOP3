@@ -1,4 +1,4 @@
-namespace Blackjack_OOP3
+﻿namespace Blackjack_OOP3
 {
     public partial class Form1 : Form
     {
@@ -9,7 +9,7 @@ namespace Blackjack_OOP3
 
         private void button1_Click(object sender, EventArgs e)
         {
-             
+
         }
     }
 }

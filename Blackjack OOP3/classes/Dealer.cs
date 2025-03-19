@@ -8,6 +8,6 @@ namespace Blackjack_OOP3.classes
 {
     class Dealer
     {
-        bobbr kurwa
+
     }
 }
