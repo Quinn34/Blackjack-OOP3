@@ -83,5 +83,9 @@ namespace Blackjack_OOP3.classes
         {
             return this.faceValue + " Of " + this.suit;
         }
+        public string CardOutput()
+        {
+            return $"{faceValue} of {Suit}";
+        }
     }
 }
