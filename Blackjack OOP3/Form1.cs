@@ -45,7 +45,8 @@ namespace Blackjack_OOP3.classes
 
         private void InitializeComponent()
         {
-            throw new NotImplementedException();
+            this.Text = "Blackjack Game";
+            this.ClientSize = new System.Drawing.Size(800, 600);
         }
     }
 }
