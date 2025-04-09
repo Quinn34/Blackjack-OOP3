@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
-using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Blackjack_OOP3.classes
+namespace WindowsFormsApp1
 {
     public enum Suits
     {
@@ -44,6 +44,10 @@ namespace Blackjack_OOP3.classes
             {
                 return suit;
             }
+        }
+        public FaceValues FaceValue
+        {
+            get { return faceValue; }
         }
 
         public int Value
@@ -89,3 +93,4 @@ namespace Blackjack_OOP3.classes
         }
     }
 }
+

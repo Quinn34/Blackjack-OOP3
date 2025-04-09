@@ -1,4 +1,8 @@
 using Blackjack_OOP3.classes;
+using WindowsFormsApp1;
+using System.Windows.Forms;
+using System;
+
 
 namespace Blackjack_OOP3.classes
 {
@@ -9,22 +13,22 @@ namespace Blackjack_OOP3.classes
             InitializeComponent();
             // Makes new deck
             Deck deck = new Deck();
-
+            
             Console.WriteLine("Shuffling deck...");
             deck.ShuffleCards();
 
             while (true)
             {
                 Console.Write("Type 'pull' to draw a card or 'exit' to quit: ");
-                // ToLower makes everything lowercase and trim prevents crashes from empty input
-                string input = Console.ReadLine()?.Trim().ToLower();
+
+                string input = (Console.ReadLine() ?? "").Trim().ToLower();
 
                 if (input == "pull")
                 {
                     if (deck.CardsRemaining() > 0)
                     {
                         Card drawnCard = deck.DealCard();
-                        Console.WriteLine($"Drawn card: {drawnCard.FaceValues} of {drawnCard.Suit}");
+                        Console.WriteLine(value: $"Drawn card: {drawnCard.FaceValue} of {drawnCard.Suit}");
                     }
                     else
                     {
