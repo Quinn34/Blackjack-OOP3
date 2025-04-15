@@ -8,5 +8,6 @@ namespace Blackjack_OOP3.classes
 {
     class Dealer
     {
+        int x = 10;
     }
 }
